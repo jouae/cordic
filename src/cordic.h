@@ -3,6 +3,7 @@
  *
  * Copyright (c) 2024 Yan-Jie, Chen
  */
+#include <stdint.h>
 
 typedef int32_t fixed_t;
 
