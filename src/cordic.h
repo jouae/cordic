@@ -10,6 +10,9 @@ typedef int32_t fixed_t;
 #define FIXED_INTEGER_BITS 23
 #define FIXED_FRACTION_BITS 8
 
+#define MAX_ITER 15
+#define PI 3.141592654
+
 /*
  * CORDIC algorithms
  */
@@ -23,7 +26,7 @@ typedef int32_t fixed_t;
  */
 float conv_sin(float theta);
 float conv_cos(float theta);
-float conv_sincos(float theta);
+float conv_sincos(float theta, float *x, float *y);
 float conv_tan(float theta);
 
 /*
